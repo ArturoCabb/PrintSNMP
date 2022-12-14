@@ -5,6 +5,13 @@ from struct import pack, unpack
 from datetime import datetime as dt
 from pysnmp.entity.rfc3413.oneliner import cmdgen
 from pysnmp.proto.rfc1902 import Integer, IpAddress, OctetString
+from datetime import datetime
+
+def saveFile(value):
+    date = datetime.today().strftime('%Y-%m-%d')
+    file = open(date + ".txt" ,"a+")
+    file.write(value)
+    file.close
 
 parser = argparse.ArgumentParser(description="Te input value is")
 parser.add_argument('--ip', nargs='?', help='The target ip address', required=True)
@@ -32,3 +39,4 @@ while True:
         print("Error: %s %s %s %s" % res)
     else:
         print("%s" % varBinds)
+        saveFile(varBinds)

@@ -55,10 +55,6 @@
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\_strptime.py',
    'PYMODULE'),
-  ('datetime',
-   'C:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\datetime.py',
-   'PYMODULE'),
   ('calendar',
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\calendar.py',
@@ -291,10 +287,6 @@
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\ast.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\tracemalloc.py',
@@ -306,6 +298,14 @@
   ('signal',
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\signal.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\_py_abc.py',
    'PYMODULE'),
   ('tempfile',
    'C:\\Program Files (x86)\\Microsoft Visual '
@@ -351,9 +351,9 @@
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\http\\client.py',
    'PYMODULE'),
-  ('stringprep',
+  ('datetime',
    'C:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\stringprep.py',
+   'Studio\\Shared\\Python39_64\\lib\\datetime.py',
    'PYMODULE'),
   ('argparse',
    'C:\\Program Files (x86)\\Microsoft Visual '
