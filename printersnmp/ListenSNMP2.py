@@ -1,11 +1,12 @@
 from pysnmp import hlapi
 import argparse
-from datetime import datetime
+from datetime import datetime as dt
 
 def saveFile(value):
-    date = datetime.today().strftime('%Y-%m-%d')
+    date = dt.today().strftime('%Y-%m-%d')
+    dateComplete = dt.today().strftime('%Y-%m-%d %H:%M:%SS')
     file = open(date + ".txt" ,"a+")
-    file.write(value)
+    file.write(dateComplete + " : " + value)
     file.close
 
 def get(target, oids, credentials, port=161, engine=hlapi.SnmpEngine(), context=hlapi.ContextData()):
@@ -67,11 +68,11 @@ print("Clrl + c to exit")
 
 if (inputArgs.version == "v2"):
     value = get(inputArgs.ip, [inputArgs.oid], hlapi.CommunityData(inputArgs.community))
-    saveFile(value)
+    saveFile(str(value))
     print(value)
 elif (inputArgs.version == "v3"):
     value = get(inputArgs.ip, [inputArgs.oid], hlapi.UsmUserData(inputArgs.user, authKey=inputArgs.authenticationkey, privKey=inputArgs.encryptionkey, authProtocol=hlapi.usmHMACSHAAuthProtocol, privProtocol=hlapi.usmAesCfb128Protocol))
-    saveFile(value)
+    saveFile(str(value))
     print(value)
 else:
     print("Specify a snmp version")

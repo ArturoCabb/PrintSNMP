@@ -8,9 +8,10 @@ from pysnmp.proto.rfc1902 import Integer, IpAddress, OctetString
 from datetime import datetime
 
 def saveFile(value):
-    date = datetime.today().strftime('%Y-%m-%d')
+    date = dt.today().strftime('%Y-%m-%d')
+    dateComplete = dt.today().strftime('%Y-%m-%d %H:%M:%SS')
     file = open(date + ".txt" ,"a+")
-    file.write(value)
+    file.write(dateComplete + " : " + value)
     file.close
 
 parser = argparse.ArgumentParser(description="Te input value is")
@@ -39,4 +40,4 @@ while True:
         print("Error: %s %s %s %s" % res)
     else:
         print("%s" % varBinds)
-        saveFile(varBinds)
+        saveFile(str(varBinds))

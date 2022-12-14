@@ -291,18 +291,6 @@
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\bisect.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\_py_abc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\stringprep.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('subprocess',
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\subprocess.py',
@@ -314,6 +302,18 @@
   ('signal',
    'C:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\signal.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\stringprep.py',
    'PYMODULE'),
   ('pysnmp.proto.rfc1902',
    'C:\\Users\\artur\\AppData\\Roaming\\Python\\Python39\\site-packages\\pysnmp\\proto\\rfc1902.py',
