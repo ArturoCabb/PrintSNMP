@@ -1,0 +1,6 @@
+2022-12-18 22:09:05 588984 PM > SNMPv2-SMI::mib-2.25.3.5.1.1.1 = 3
+2022-12-18 22:09:05 588984 PM > SNMPv2-SMI::mib-2.25.3.5.1.2.1 = 0x80
+2022-12-18 22:09:05 604612 PM > SNMPv2-SMI::mib-2.25.3.5.1.2.1 = No more variables left in this MIB View
+2022-12-18 22:09:07 765133 PM > SNMPv2-SMI::mib-2.25.3.5.1.1.1 = 3
+2022-12-18 22:09:07 765133 PM > SNMPv2-SMI::mib-2.25.3.5.1.2.1 = 0x80
+2022-12-18 22:09:07 765133 PM > SNMPv2-SMI::mib-2.25.3.5.1.2.1 = No more variables left in this MIB View
