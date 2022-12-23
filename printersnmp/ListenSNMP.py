@@ -5,7 +5,7 @@ import SaveData
 
 if  __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description="Te input value is")
+    parser = argparse.ArgumentParser(description="The input parameters values is")
     parser.add_argument('--ip', nargs='?', help='The target ip address', required=True)
     parser.add_argument('--communityIndex', nargs='?', help='The community index', required=False, default='public')
     parser.add_argument('--communityGroup', nargs='?', help='The community group', required=False, default='public')
@@ -21,7 +21,7 @@ if  __name__ == '__main__':
     elif (inputArgs.version == 'v3'):
         version = 2
     
-    print("Esc to exit")
+    print("Ctrl + C to exit")
     
     while True:
         errorIndication, errorStatus, errorIndex, \
